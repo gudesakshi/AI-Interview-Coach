@@ -1,0 +1,59 @@
+/* General body styling */
+body {
+    background: linear-gradient(to right, #f4f6f9, #e9ecef);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Card styling (used in login + role cards) */
+.card {
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Feedback box (result page) */
+.feedback-box {
+    background: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Buttons */
+button, .btn {
+    border-radius: 6px;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+}
+button:hover, .btn:hover {
+    transform: scale(1.05);
+}
+
+/* Hero banner (role.html) */
+.hero {
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.hero h1 {
+    font-weight: 600;
+}
+.hero p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
